@@ -22,3 +22,10 @@ function stdin_trasher () {
 	{ cat > /dev/null <&3 3<&- & } 3<&0
 	echo $!
 }
+
+function check_if_dir() {
+	if ! test -e id; then
+		echo "ERROR: Is this a ratox directory?" >&2
+		exit 1
+	fi
+}

@@ -4,11 +4,9 @@
 
 LIBRARY_LOCATION=`dirname $0`
 . $LIBRARY_LOCATION/functions
+export PATH=$LIBRARY_LOCATION:$PATH
 
-[ ! -f .ratox.data ] && {
-    log "Should be run in root of ratox profile"
-    exit 1
-}
+check_if_dir
 
 while true; do
 	find request/out/ -type p | while read request; do

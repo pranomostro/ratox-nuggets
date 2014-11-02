@@ -10,6 +10,8 @@ LIBRARY_LOCATION=`dirname $0`
 . $LIBRARY_LOCATION/functions
 export PATH=$LIBRARY_LOCATION:$PATH
 
+check_if_dir
+
 while true; do
         log "Monitoring for new call"
         monitor_pending call
