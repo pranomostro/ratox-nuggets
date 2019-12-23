@@ -2,8 +2,8 @@
 # Remote microphone script
 # Usage:
 #    rat-remotemic
-#        if no call is pending it'll initiate the call, if call is pending, i'tt be answered
-#        It should be called within friend dir, where call_in amd call_out pipes reside
+#        If no call is pending it'll initiate the call, if call is pending, it'll be answered
+#        It should be called within friend dir, where call_in and call_out pipes reside
 
 LIBRARY_LOCATION=`dirname $BASH_SOURCE`
 . $LIBRARY_LOCATION/functions

@@ -1,0 +1,30 @@
+ratox nuggets
+=============
+
+This is a set of scripts that build on the ratox[0] FIFO interface.
+They include functionalities such as having a ratox mailbox, saving ratox
+communications, receiving weather information through ratox and some more.
+
+Scripts
+-------
+
+* rat-autoanswer: Handle an incoming call using user-defined script
+* rat-autoapprove: Automatically approve any friend request
+* rat-echo: Return incoming messages to sender
+* rat-frienddir: Create softlinks named after friends' names to their directory
+* rat-list: List friends
+* rat-log: Encrypt & save conversations
+* rat-play: Play incoming call data
+* rat-record: Record call data
+* rat-remotemic: Start/answer a call
+* rat-textout: Save & send own messages
+* rat-weather: Print the weather at a given location
+* rat-weather-voice: Speak the weather at a given location
+
+Requirements
+------------
+
+Installation
+------------
+
+[0] https://ratox.2f30.org/
