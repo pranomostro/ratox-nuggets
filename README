@@ -24,7 +24,30 @@ Scripts
 Requirements
 ------------
 
+A base unix environment with standard utilities such as `ls`, `rm` and
+`sh`.
+
+* aplay[2] for rat-play
+* arecord[3] for rat-record and rat-remotemic
+* curl[4] for rat-weather and rat-weather-voice
+* gpg2[5] for rat-log
+* hash[6] for finding inotifywait in functions
+* inotifywait[6] for waiting for waiting for modification in functions
+* logger[7] for logging in functions
+* perl[8] for rat-weather and rat-weather-voice
+* rc[9] for rat-frienddir and rat-log
+* sob[10] for rat-textout
+* text2wave[11] for rat-weather-voice
+
 Installation
 ------------
 
 [0] https://ratox.2f30.org/
+[1]
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
