@@ -27,17 +27,17 @@ Requirements
 A base unix environment with standard utilities such as `ls`, `rm` and
 `sh`.
 
-* aplay[2] for rat-play
-* arecord[3] for rat-record and rat-remotemic
-* curl[4] for rat-weather and rat-weather-voice
-* gpg2[5] for rat-log
-* hash[6] for finding inotifywait in functions
-* inotifywait[6] for waiting for waiting for modification in functions
-* logger[7] for logging in functions
-* perl[8] for rat-weather and rat-weather-voice
-* rc[9] for rat-frienddir and rat-log
-* sob[10] for rat-textout
-* text2wave[11] for rat-weather-voice
+* aplay[1] for rat-play
+* arecord[2] for rat-record and rat-remotemic
+* curl[3] for rat-weather and rat-weather-voice
+* gpg2[4] for rat-log
+* hash[5] for finding inotifywait in functions
+* inotifywait[5] for waiting for waiting for modification in functions
+* logger[6] for logging in functions
+* perl[7] for rat-weather and rat-weather-voice
+* rc[8] for rat-frienddir and rat-log
+* sob[9] for rat-textout
+* text2wave[10] for rat-weather-voice
 
 Installation
 ------------
@@ -51,3 +51,5 @@ Installation
 [6]
 [7]
 [8]
+[9]
+[10]

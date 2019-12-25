@@ -1,0 +1,32 @@
+.Dd December 25, 2019
+.Dt RAT-AUTOANSWER 1
+.Os
+
+.Sh NAME
+.Nm rat-autoanswer
+.Nd Handle an incoming call using a script
+
+.Sh SYNOPSIS
+.Nm
+.Ar script
+
+.Sh DESCRIPTION
+.Nm
+should be called in a friend directory with a running
+.Xr ratox 1
+instance. It monitors the friend directories for incoming calls.
+Should a call occur, it calls
+.Ar script .
+.Ar script
+can then deal with the incoming call (such as providing a mailbox
+message and waiting for the call to hang up) by using the call_in and
+call_out files.
+
+.Sh EXIT STATUS
+.Ex -std
+
+.Sh SEE ALSO
+.Xr ratox 1 .
+
+.Sh AUTHORS
+.An pranomostro Aq Mt pranomostro@posteo.net
