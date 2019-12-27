@@ -42,6 +42,10 @@ A base unix environment with standard utilities such as `ls`, `rm` and
 Installation
 ------------
 
+The scripts can be installed by copying them to a directory in $PATH. This
+directory should not contain a script called 'functions', since it would
+be overwritten.
+
 [0] https://ratox.2f30.org/
 [1]
 [2]
